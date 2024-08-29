@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal-portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/34b4c33d98.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="shah2.JPG"  class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#skill">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i> 
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i> 
+            </nav>
+            <div class="header-text">
+                <p>JAVA DEVELOPER</p>
+                <h1>Hi,I'm Shahbaz <span>Ahmad</span><br><span>MCA student at </span>CUSAT</h1>
+            </div>
+        </div>
+    </div>
+    <!-- --------about------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="shah1.jpg" alt="myimg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Detail-oriented MCA student at Cochin University of Science and Technology with a solid foundation in software development, databases, and front-end technologies.
+                         Proficient in Java, key frameworks with hands on experience in problem-solving skills, research capabilities, and a strong ability to collaborate effectively.
+                          Eager to contribute effectively in dynamic, team-oriented environments.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Soft Skills</p>
+                        <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills"> 
+                        <ul>
+                            <li><span>Problem Solving</span><br>Problem-solving is a valuable skill that can be applied to various aspects of life. It's great to have that as a strength</li>
+                            <li><span>Communication Skills</span><br>English,Hindi(Mother-Tongue),Urdu,Arabic</li>
+                            <li><span>Decision Making</span><br>Making good decisions can significantly impact our lives, both personally and professionally. I am able to make a situation base decision when me and my team is needed.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="projects"> 
+                        <ul>
+                            <li><span>Tic Tac Toe</span><br>Designing tic tac toe by using HTML CSS Javascript</li>
+                            <li><span>Rock Paper Scissors</span><br>Designing tic tac toe by using HTML CSS Javascript</li>
+                            <li><span>High-Score Hunter</span><br>Designing High-Score Hunter by using HTML CSS Javascript</li>
+                            <li><span>Live Face Detection Attendance </span><br>Developing Live Face Detection Attendance by using Python ,opencv</li>
+                            <li><span>Food ChatBot</span><br>Designing Food ChatBot  by using IBM Watonx Assistance HTML CSS Javascript</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education"> 
+                        <ul>
+                            <li><span>Matriculation</span><br>9.2 CGPA(CBSE)</li>
+                            <li><span>Intermediate</span><br>63.4% (CBSE)</li>
+                            <li><span>BCA(Bachlore Of Computer Applications)</span><br>76.92% (MMHAPU)</li>
+                            <li><span>MCA(Master Of Computer Applications)</span><br>9.58 CGPA (CUSAT)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- -------------------portfolio------------------- -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Projects</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="carRace.jpg">
+                        <div class="layer">
+                            <h2>High-Score Hunter</h2>
+                            <p> A fast-paced arcade game where players navigate a character through a field of obstacles,
+                                 aiming to avoid collisions and rack up as many points as possible before being eliminated.</p>
+                                <a href="car.html"><span class="material-symbols-outlined">
+                                    expand_circle_right
+                                    </span></a>
+                        </div>
+                    </div>
+                    <div class="work tic">
+                        <img src="tic tac toe.jpg">
+                        <div class="layer">
+                            <h2>Tic Tac Toe</h2>
+                            <p>A simple game played on a 3x3 grid.
+                                 Players take turns marking a space with their symbol (X or O).
+                                 The first player to get three in a row (horizontally, vertically, or diagonally) wins.</p>
+                                <a href="../tictoctoegame/index.html"><span class="material-symbols-outlined">
+                                    expand_circle_right
+                                    </span></a>
+                        </div>
+                    </div>
+                    <div class="work rps">
+                        <img src="rock paper scisor.jpg">
+                        <div class="layer">
+                            <h2>Rock Paper Scissors</h2>
+                            <p> 
+                                 The winner is determined by the following rules:
+                                <br>
+                                Rock beats scissors (blunts it),<br>
+                                Scissors beats paper (cuts it),<br>
+                                Paper beats rock (covers it).</p>
+                                <a href="rps.html"><span class="material-symbols-outlined">
+                                    expand_circle_right
+                                    </span></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <a href="#" class="btn">See More </a> -->
+            </div>
+        </div>
+    <!-- -------------------skills-------------------- -->
+    <div id="skill">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="skills-list">
+            <div class="round">
+                <i style="color: blue;" class="fa-brands fa-java"></i>
+                <p>JAVA</p>
+            </div>
+            <div class="round">
+                <i style="color: rgb(255, 68, 0);" class="fa-brands fa-html5"></i>
+                <p>HTML</p>
+            </div>
+            <div class="round">
+                <i style="color: blue;" class="fa-brands fa-css3-alt"></i>
+                <p>CSS</p>
+            </div>
+           
+            <div class="round r4">
+                <i style="color: rgb(228, 253, 5);" class="fa-brands fa-js"></i>
+                <p>JAVASCRIPT</p>
+            </div>
+            <div class="round r5">
+                <i style="color: rgb(162, 0, 255);" class="fa-brands fa-python"></i>
+                <p>PYTHON</p>
+            </div>
+            <div class="round">
+                <i style="color: rgb(0, 183, 255);" class="fa-solid fa-database"></i>
+                <p>SQL</p>
+            </div>
+            <div class="round r7">
+                <i style="color: rgb(208, 255, 0);" class="fa-brands fa-c"></i>
+                <p>C</p>
+            </div>
+            <div  class="round r8">
+                <i style="color: rgb(0, 255, 21);" class="fa fa-database"></i>
+                <p>MONGODB</p>
+            </div>
+            </div>
+        </div>
+    </div> 
+
+            
+           
+    <!---------------------contact--------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>shahbazahmad2001@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 7277679129</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/shahbazahmad.khan.758" class="fa fa-facebook"></a>
+                        <a href="https://x.com/SHAHBAZ48809848?t=dm2bkThv2WzVvxuG3IU4kA&s=08" class="fa fa-twitter"></a>
+                        <a href="https://www.instagram.com/shahbaz_says_?igsh=MWdkcDU3a2tlZWpmZw==" class="fa fa-instagram"></a>
+                        <a href="https://www.linkedin.com/in/shahbaz-ahmad-96a8121b0" class="fa fa-linkedin"></a>
+                        <a href="https://github.com/superszv07" class="fa fa-github"></a>
+                    </div>
+                    <a href="Shahbaz_Resume.pdf" download class="btn btn2 ">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="" name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" cols="30" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2 ">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>All Copyright <i class='far fa-copyright'></i> reserved to shahbaz </p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu()
+        {
+            sidemenu.style.right="0";
+        }
+        function closemenu()
+        {
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbx4WyZ7475_hFQeyh5VvVHjpq32-15fd1wEMt0xyCMLPx6sFUC3uqBptQxks_rnJkBfAw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{
+                msg.innerHTML="Message submit Successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            } )
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
