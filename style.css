@@ -196,10 +196,11 @@ color: #fff;
 }
 .work-list{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
     grid-gap: 40px;
     margin-top: 50px;
 }
+
 .work{
     border-radius: 10px;
     position: relative;
@@ -208,6 +209,13 @@ color: #fff;
 .work img{
     width: 100%;
     height: 90%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
+.chatbt,.dnn,.faceDect{
+    width: 100%;
+    height: 70%;
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;
