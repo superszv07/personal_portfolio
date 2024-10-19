@@ -50,7 +50,7 @@ html{
     content: '';
     width: 0;
     height: 3px;
-    background:#042743 ;
+    background:#307fc0 ;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -72,7 +72,7 @@ nav ul li a:hover::after{
     margin-top: 20px;
 }
 .header-text h1 span{
- color: #042743;
+ color: #307fc0;
 }
 /* --------about------ */
 
@@ -115,7 +115,7 @@ color: #fff;
     content: '';
     width: 0;
     height: 3px;
-    background: #042743;
+    background: #307fc0;
     position:absolute;
     left: 0;
     bottom: -8px;
@@ -242,7 +242,7 @@ color: #fff;
 }
 .layer a{
     margin-top: 20px;
-    color: #042743;
+    color: #307fc0;
     font-size: 18px;
     line-height: 60px;
     background: #fff;
@@ -269,7 +269,7 @@ color: #fff;
     transition: background 0.5s;
 }
 .btn:hover{
-    background: #042743;
+    background: #307fc0;
 }
 /*------------contact------------*/
 .contact-left
@@ -284,7 +284,7 @@ color: #fff;
     margin-top: 30px;
 }
 .contact-left p i{
-    color:#042743;
+    color:#307fc0;
      margin-right: 15px; 
      font-size: 25px;
 }
@@ -300,13 +300,13 @@ color: #fff;
    transition: transform 0.5s;
 }
 .social-icons a:hover{
-    color: #042743;
+    color: #307fc0;
     transform: translateY(-5px);
 }
 
 .btn.btn2{
     display: inline-block;
-    background: #042743;
+    background: #307fc0;
 
 }
 .contact-right form{
@@ -340,10 +340,10 @@ form .btn2{
     margin-top: 20px;
 }
 .sub-title span{
-    color: #042743;
+    color: #307fc0;
 } 
 .info span{
-    color: #042743;
+    color: #307fc0;
 }
 
 .container1{
@@ -600,7 +600,7 @@ nav .fa-solid{
         font-size: 25px;
     }
     nav ul{
-        background: #042743;
+        background: #307fc0;
         position: fixed;
         top: 0;
         right: -200px;
