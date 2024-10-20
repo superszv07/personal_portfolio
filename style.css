@@ -306,7 +306,8 @@ color: #fff;
 
 .btn.btn2{
     display: inline-block;
-    background: #ff004f;
+    background: #013b7c;
+    border:1px solid #5d9feb8e;
 
 }
 .contact-right form{
@@ -330,7 +331,10 @@ form .btn2{
     margin-top: 20px;
     cursor: pointer;
 }
-
+.btn.btn2:hover
+{
+    background: #1253a8;
+}
 .copyright{
     width: 100%;
     text-align: center;

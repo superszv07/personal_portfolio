@@ -227,7 +227,7 @@
                         <input type="text" name="Name" placeholder="Your Name" required>
                         <input type="email" name="Email" placeholder="Your Email" required>
                         <textarea name="Message" cols="30" rows="6" placeholder="Your Message"></textarea>
-                        <button type="submit" class="btn btn2 ">Submit</button>
+                        <button type="submit" class="btn btn2 " onClick="showAlert()">Submit</button>
                     </form>
                     <span id="msg"></span>
                 </div>
@@ -237,6 +237,14 @@
             <p>All Copyright <i class='far fa-copyright'></i> reserved to shahbaz </p>
         </div>
     </div>
+    <script>
+        function showAlert() {
+          alert("Form submitted successfully!");
+        setTimeout(() => {
+            alertMessage.remove();
+        }, 3000);
+        }
+      </script>
     <script>
         var tablinks = document.getElementsByClassName("tab-links");
         var tabcontents = document.getElementsByClassName("tab-contents");
