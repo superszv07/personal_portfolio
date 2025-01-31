@@ -154,7 +154,8 @@ color: #fff;
     padding: 23px;
     font-size: 13px;
     font-weight: 300;
-
+    margin: auto;
+    width: 93px;
     transition: background 0.5s,transform 0.5s;
 }
 .round{
