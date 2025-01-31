@@ -310,6 +310,13 @@ color: #fff;
     border:1px solid #5d9feb8e;
 
 }
+.btn.btn2.btn3{
+    margin-top: 40px;
+    display: inline-block;
+    background: #013b7c;
+    border:1px solid #5d9feb8e;
+
+}
 .contact-right form{
     width: 100%;
 
