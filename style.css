@@ -174,16 +174,19 @@ color: #fff;
     font-weight: 500;
     margin-bottom: 15px;  
 }
-.r4 p{
+.r1 h2{
+    margin: auto;
+}
+.r4 h2{
     margin-left: -33px;
 }
-.r5 p{
+.r5 h2{
     margin-left: -20px;
 }
-.r7 p{
+.r7 h2{
     margin-left: 16px;
 }
-.r8 p{
+.r8 h2{
     margin-left: -25px;
 }
 .skills-list div:hover{
