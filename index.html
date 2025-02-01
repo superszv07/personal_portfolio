@@ -352,12 +352,6 @@
         </div>
     </div>
     <script>
-        function showAlert() {
-        alert("Form is submitted successfully !")
-        setTimeout(() => {
-            alertMessage.remove();
-        },200);
-        }
       </script>
     <script>
         var tablinks = document.getElementsByClassName("tab-links");
@@ -395,6 +389,7 @@
           fetch(scriptURL, { method: 'POST', body: new FormData(form)})
             .then(response =>{
                msg.innerText="Thankyou for contact !"
+               alert("Form is submitted successfully !")
                 setTimeout(function(){
                     msg.innerHTML=""
                 },2000)
