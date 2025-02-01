@@ -261,13 +261,19 @@ color: #fff;
 .work:hover .layer{
     height: 100%;
 }
-.btnn1{
-    margin-top: 50px;
-    width: 150px;
+.btn{
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #ff004f;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: beige;
+    transition: background 0.5s;
 }
-.btnn2{
-    margin-top: 20px;
-    width: 150px;
+.btn:hover{
+    background: #ff004f;
 }
 /*------------contact------------*/
 .contact-left
@@ -584,6 +590,11 @@ nav .fa-solid{
     display: none;
 }
 
+#msg{
+    color:#009fff;
+    margin-top: -40px;
+    display: block;
+}
 
 @media only screen and (max-width: 377px)
 {
@@ -661,11 +672,6 @@ nav .fa-solid{
     .copyright{
         font-size: 14px;
     }
-}
-#msg{
-    color: wheat;
-    margin-top: -40px;
-    display: block;
 }
 
 
@@ -750,12 +756,6 @@ nav .fa-solid{
         font-size: 14px;
     }
 }
-#msg{
-    color: wheat;
-    margin-top: -40px;
-    display: block;
-}
-
 
 @media only screen and (min-width:451px)  and (max-width: 550px)
 {
@@ -838,11 +838,6 @@ nav .fa-solid{
         font-size: 14px;
     }
 }
-#msg{
-    color: wheat;
-    margin-top: -40px;
-    display: block;
-}
 
 @media only screen and (min-width:551px)  and (max-width: 742px)
 {
@@ -924,11 +919,6 @@ nav .fa-solid{
         font-size: 14px;
     }
 }
-#msg{
-    color: wheat;
-    margin-top: -40px;
-    display: block;
-}
 
 @media only screen and (min-width:742px)  and (max-width: 1100px)
 {
@@ -984,11 +974,6 @@ nav .fa-solid{
     .copyright{
         font-size: 14px;
     }
-}
-#msg{
-    color: wheat;
-    margin-top: -40px;
-    display: block;
 }
 
 @media only screen and (min-width:1101px)  and (max-width: 1600px)
