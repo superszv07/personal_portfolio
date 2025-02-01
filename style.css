@@ -344,11 +344,7 @@ form .btn2{
 }
 .btn.btn2:hover
 {
-    background: #488be4;
-}
-.btn.btn2:visited
-{
-    background: #488be4;
+    background: #3c88ec;
 }
 .copyright{
     width: 100%;
@@ -596,7 +592,7 @@ nav .fa-solid{
 
 #msg{
     color:#009fff;
-    margin-top: -140px;
+    margin-top: -40px;
     display: block;
 }
 
